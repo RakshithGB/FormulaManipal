@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Engine Tunning Paramteres-->
+        <scene sceneID="Job-PD-vKU">
+            <objects>
+                <viewController storyboardIdentifier="A" useStoryboardIdentifierAsRestorationIdentifier="YES" id="inA-me-sdn" customClass="EngineTunningParamteres" customModule="LGSideMenuControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gxB-Gn-hdc"/>
+                        <viewControllerLayoutGuide type="bottom" id="ozg-WZ-84Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hNK-Yh-HZd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="3o1-Gj-xhg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ozg-WZ-84Y" firstAttribute="top" secondItem="3o1-Gj-xhg" secondAttribute="bottom" id="KGv-D5-9l1"/>
+                            <constraint firstItem="3o1-Gj-xhg" firstAttribute="top" secondItem="hNK-Yh-HZd" secondAttribute="top" id="U4X-U5-kME"/>
+                            <constraint firstAttribute="trailing" secondItem="3o1-Gj-xhg" secondAttribute="trailing" id="oLx-dO-a2b"/>
+                            <constraint firstItem="3o1-Gj-xhg" firstAttribute="leading" secondItem="hNK-Yh-HZd" secondAttribute="leading" id="zj1-Hr-gyI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gba-nX-bD6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.80000000000001" y="156.97151424287858"/>
+        </scene>
+        <!--Data Acquisition-->
+        <scene sceneID="4Mo-bC-p09">
+            <objects>
+                <viewController storyboardIdentifier="B" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iFD-sC-2no" customClass="DataAcquisition" customModule="LGSideMenuControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="19A-pe-e6Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dmc-zU-Zgp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2xv-Iz-kCT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="wgv-lf-DG5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wgv-lf-DG5" secondAttribute="trailing" id="MZg-OM-o0d"/>
+                            <constraint firstItem="wgv-lf-DG5" firstAttribute="top" secondItem="2xv-Iz-kCT" secondAttribute="top" id="U1C-Uu-B5E"/>
+                            <constraint firstItem="Dmc-zU-Zgp" firstAttribute="top" secondItem="wgv-lf-DG5" secondAttribute="bottom" id="pOJ-SK-zii"/>
+                            <constraint firstItem="wgv-lf-DG5" firstAttribute="leading" secondItem="2xv-Iz-kCT" secondAttribute="leading" id="wrh-33-Osb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ga6-NC-2aW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.2" y="166.8665667166417"/>
+        </scene>
+        <!--Emergency-->
+        <scene sceneID="8TJ-AL-i2m">
+            <objects>
+                <viewController storyboardIdentifier="D" useStoryboardIdentifierAsRestorationIdentifier="YES" id="04N-Ef-83Y" customClass="Emergency" customModule="LGSideMenuControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lAW-kc-8Sk"/>
+                        <viewControllerLayoutGuide type="bottom" id="wy8-KS-nOU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dPV-dM-VHH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLV-iZ-rSO">
+                                <rect key="frame" x="131.5" y="277.5" width="113" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="KjA-Vv-vzt"/>
+                                    <constraint firstAttribute="width" constant="113" id="Ngv-E8-ctu"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="imgButton.png"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="In case of emergency this button will alert the nearest Fire Station, Police Station and Hospital" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="noZ-Sy-JDQ">
+                                <rect key="frame" x="33" y="95" width="309" height="156"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="156" id="5e5-SX-Pyj"/>
+                                    <constraint firstAttribute="width" constant="309" id="v2L-4b-kTk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DLV-iZ-rSO" firstAttribute="centerY" secondItem="dPV-dM-VHH" secondAttribute="centerY" id="Cir-FE-bgF"/>
+                            <constraint firstItem="DLV-iZ-rSO" firstAttribute="centerX" secondItem="dPV-dM-VHH" secondAttribute="centerX" id="NJc-ht-GmI"/>
+                            <constraint firstItem="noZ-Sy-JDQ" firstAttribute="centerX" secondItem="dPV-dM-VHH" secondAttribute="centerX" id="O0E-GS-GZx"/>
+                            <constraint firstItem="DLV-iZ-rSO" firstAttribute="top" secondItem="noZ-Sy-JDQ" secondAttribute="bottom" constant="26.5" id="dhe-Iv-eQ2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sos" destination="DLV-iZ-rSO" id="4jk-u2-Ed1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p8H-j7-Ya3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="884"/>
+        </scene>
+        <!--Customer Service-->
+        <scene sceneID="vpY-JK-GQM">
+            <objects>
+                <viewController storyboardIdentifier="E" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1pB-Ns-vki" customClass="CustomerService" customModule="LGSideMenuControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fxB-mi-kvL"/>
+                        <viewControllerLayoutGuide type="bottom" id="K2y-d5-Kt8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7gB-WM-Ntn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="customer-service-icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PcU-37-tT6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Jo-oh-Wmf">
+                                <rect key="frame" x="40" y="533" width="45" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="Call"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcH-7X-KfR">
+                                <rect key="frame" x="229" y="533" width="106" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="Message"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PcU-37-tT6" firstAttribute="top" secondItem="7gB-WM-Ntn" secondAttribute="top" id="CUK-Fb-And"/>
+                            <constraint firstItem="K2y-d5-Kt8" firstAttribute="top" secondItem="ZcH-7X-KfR" secondAttribute="bottom" constant="91" id="Ill-nK-2Eb"/>
+                            <constraint firstItem="0Jo-oh-Wmf" firstAttribute="leading" secondItem="7gB-WM-Ntn" secondAttribute="leadingMargin" constant="24" id="N5A-bh-1Xx"/>
+                            <constraint firstItem="PcU-37-tT6" firstAttribute="leading" secondItem="7gB-WM-Ntn" secondAttribute="leading" id="RMB-Nd-Hs0"/>
+                            <constraint firstAttribute="trailing" secondItem="PcU-37-tT6" secondAttribute="trailing" id="ZmW-bD-OGo"/>
+                            <constraint firstItem="K2y-d5-Kt8" firstAttribute="top" secondItem="PcU-37-tT6" secondAttribute="bottom" id="cv6-S8-aDa"/>
+                            <constraint firstItem="K2y-d5-Kt8" firstAttribute="top" secondItem="0Jo-oh-Wmf" secondAttribute="bottom" constant="91" id="iv6-md-mwS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZcH-7X-KfR" secondAttribute="trailing" constant="24" id="lQg-V9-zW9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ewW-pp-HdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1783.2" y="850.52473763118451"/>
+        </scene>
+        <!--Formula Social-->
+        <scene sceneID="AgG-bk-NgX">
+            <objects>
+                <viewController storyboardIdentifier="C" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LjV-sO-9dQ" customClass="FormulaSocial" customModule="LGSideMenuControllerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KYn-kf-91p"/>
+                        <viewControllerLayoutGuide type="bottom" id="0za-Rc-M1e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E6z-lC-xfO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flaticons_1x.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ih-SP-YwL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBu-7X-HvA">
+                                <rect key="frame" x="34" y="501" width="126" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Upload Image"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StE-7z-afD">
+                                <rect key="frame" x="220" y="501" width="121" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Upload Video"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VBu-7X-HvA" firstAttribute="leading" secondItem="E6z-lC-xfO" secondAttribute="leadingMargin" constant="18" id="3Az-Fn-ZXZ"/>
+                            <constraint firstAttribute="trailing" secondItem="0ih-SP-YwL" secondAttribute="trailing" id="9Pm-el-wGA"/>
+                            <constraint firstItem="0ih-SP-YwL" firstAttribute="top" secondItem="E6z-lC-xfO" secondAttribute="top" id="Fbw-Ne-oe1"/>
+                            <constraint firstItem="0za-Rc-M1e" firstAttribute="top" secondItem="VBu-7X-HvA" secondAttribute="bottom" constant="130" id="WZP-at-pey"/>
+                            <constraint firstItem="0za-Rc-M1e" firstAttribute="top" secondItem="StE-7z-afD" secondAttribute="bottom" constant="130" id="XUb-oN-jjE"/>
+                            <constraint firstItem="0ih-SP-YwL" firstAttribute="leading" secondItem="E6z-lC-xfO" secondAttribute="leading" id="dlE-WT-kpr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="StE-7z-afD" secondAttribute="trailing" constant="18" id="jnt-rU-bkx"/>
+                            <constraint firstItem="0za-Rc-M1e" firstAttribute="top" secondItem="0ih-SP-YwL" secondAttribute="bottom" id="mfa-6J-bbw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gUT-Ya-fr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834.4000000000001" y="195.6521739130435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3.png" width="716" height="1194"/>
+        <image name="4.png" width="874" height="1256"/>
+        <image name="customer-service-icon.jpg" width="1280" height="1024"/>
+        <image name="flaticons_1x.png" width="400" height="300"/>
+        <image name="imgButton.png" width="256" height="256"/>
+    </resources>
+</document>
